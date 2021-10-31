@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-# Register your models here.
+from django_campo_opcional_unico.core.models import Pessoa
+
+admin.site.register(Pessoa)
